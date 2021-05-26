@@ -10,7 +10,7 @@ inputs:
     default: "a joke for you"
     required: true
   repo-token:
-    description: "Token with permissions to do repo things"
+    description: ${{ secrets.TOKEN }}
 
 runs:
   using: "node12"
